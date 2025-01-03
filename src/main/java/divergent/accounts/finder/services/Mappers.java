@@ -30,6 +30,7 @@ public class Mappers {
         customer.setCustomerID(rowData.getCustomerID());
         customer.setFirstName(rowData.getFirstName());
         customer.setLastName(rowData.getLastName());
+        customer.setEnrolledDate(rowData.getEnrolledDate());
         customer.setSsn(rowData.getSsn());
 
         return customer;
@@ -42,6 +43,7 @@ public class Mappers {
         exporterRowData.setFirstName(customer.getFirstName());
         exporterRowData.setLastName(customer.getLastName());
         exporterRowData.setSsn(customer.getSsn());
+        exporterRowData.setEnrolledDate(customer.getEnrolledDate());
         exporterRowData.setIsAccountsMatched(mainAccount!=null&&partnersAccount!=null);
         exporterRowData.setMainAccount(Mappers.getAccountRowDataFromAccount(mainAccount));
         exporterRowData.setPartnersAccount(Mappers.getAccountRowDataFromAccount(partnersAccount));

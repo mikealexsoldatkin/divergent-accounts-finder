@@ -18,6 +18,8 @@ public class Customer {
     @Setter
     private String lastName;
     @Setter
+    private String enrolledDate;
+    @Setter
     private String ssn;
     private final List<Account> partnerAccounts;
     private final List<Account> mainAccounts;

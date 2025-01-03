@@ -15,6 +15,7 @@ public class ImporterRowData {
     private String firstName;
     private String lastName;
     private String ssn;
+    private String enrolledDate;
     private String dateOpened;
     private String customerCreditorID;
     private String originalCreditorUUID;

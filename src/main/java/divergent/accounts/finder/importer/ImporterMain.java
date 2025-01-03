@@ -10,6 +10,7 @@ public class ImporterMain extends Importer {
         rowData.setFirstName(record.get("first_name"));
         rowData.setLastName(record.get("last_name"));
         rowData.setSsn(record.get("ssn"));
+        rowData.setEnrolledDate(record.get("enrolled_date"));
         rowData.setCustomerCreditorID(record.get("customer_creditor_id"));
         rowData.setDateOpened(record.get("date_opened"));
         rowData.setOriginalAccountNumber(record.get("original_account_number"));

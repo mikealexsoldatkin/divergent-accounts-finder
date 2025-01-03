@@ -12,6 +12,7 @@ public class ExporterRowData {
     private String firstName;
     private String lastName;
     private String ssn;
+    private String enrolledDate;
     private Boolean isAccountsMatched;
     private AccountRowData mainAccount;
     private AccountRowData partnersAccount;
